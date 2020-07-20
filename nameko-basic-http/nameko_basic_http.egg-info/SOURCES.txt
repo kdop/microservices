@@ -1,0 +1,9 @@
+README.rst
+setup.py
+nameko_basic_http/__init__.py
+nameko_basic_http/config.yaml
+nameko_basic_http/helloworld.py
+nameko_basic_http.egg-info/PKG-INFO
+nameko_basic_http.egg-info/SOURCES.txt
+nameko_basic_http.egg-info/dependency_links.txt
+nameko_basic_http.egg-info/top_level.txt
