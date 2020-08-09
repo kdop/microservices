@@ -1,6 +1,6 @@
 # foobar.yaml
 
-AMQP_URI: 'amqp://admin:rabbit@localhost'
+WEB_SERVER_ADDRESS: 0.0.0.0:8000
 
 LOGGING:
     version: 1
