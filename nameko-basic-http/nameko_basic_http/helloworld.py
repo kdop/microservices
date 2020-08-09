@@ -1,5 +1,3 @@
-# helloworld.py
-
 from nameko.web.handlers import http
 import json
 
