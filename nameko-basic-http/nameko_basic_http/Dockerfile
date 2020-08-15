@@ -1,11 +1,10 @@
 FROM python:slim-buster
 
-RUN apt-get -y update && apt-get -y install git
-
 RUN mkdir workspace
 WORKDIR workspace
 
 # TODO: Copy folder to docker instead for faser dev.
+RUN apt-get -y update && apt-get -y install git
 RUN git clone https://github.com/kdop/microservices.git
 
 WORKDIR microservices/nameko-basic-http
